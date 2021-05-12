@@ -1,17 +1,10 @@
-module Types
-  class QueryType < Types::BaseObject
-    # Add `node(id: ID!) and `nodes(ids: [ID!]!)`
-    include GraphQL::Types::Relay::HasNodeField
-    include GraphQL::Types::Relay::HasNodesField
-
-    # Add root-level fields here.
-    # They will be entry points for queries on your schema.
-
-    # TODO: remove me
-    field :test_field, String, null: false,
-      description: "An example field added by the generator"
-    def test_field
-      "Hello World!"
-    end
+class Types::QueryType < Types::BaseObject
+  field :calculate_price, Float, description: "Returns calculated price", null: true do
+    argument :type, String, required: true
+    argument :margin, Float, required: true
+    argument :exchange_rate, Float, required: true
+  end
+  def calculate_price(type:, margin:, exchange_rate:)
+    20.30
   end
 end
