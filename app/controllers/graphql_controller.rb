@@ -19,6 +19,10 @@ class GraphqlController < ApplicationController
     handle_error_in_development(e)
   end
 
+  def heartbeat
+    render json: :ok
+  end
+
   private
 
     # Handle variables in form data, JSON body, or a blank value
