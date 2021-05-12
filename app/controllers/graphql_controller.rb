@@ -14,7 +14,7 @@ class GraphqlController < ApplicationController
     }
     result = BuycoinsCodingChallengeSchema.execute(query, variables: variables, context: context, operation_name: operation_name)
     render json: result
-  rescue StandardError => e
+  rescue => e
     raise e unless Rails.env.development?
     handle_error_in_development(e)
   end
@@ -34,10 +34,8 @@ class GraphqlController < ApplicationController
         else
           {}
         end
-      when Hash
+      when Hash, ActionController::Parameters
         variables_param
-      when ActionController::Parameters
-        variables_param.to_unsafe_hash # GraphQL-Ruby will validate name and type of incoming variables.
       when nil
         {}
       else
