@@ -1,0 +1,284 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/silas/Sites/buycoins_coding_challenge/spec/controllers/graphql_controller_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/spec/rails_helper.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          4,
+          4,
+          4,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/controllers/graphql_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          2,
+          2,
+          null,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          2,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/spec/graphql/queries/calculate_price_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/spec/helpers/coindesk_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/helpers/coindesk.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/buycoins_coding_challenge_schema.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/mutation_type.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/base_object.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/base_edge.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/base_connection.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/base_field.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/base_argument.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/silas/Sites/buycoins_coding_challenge/app/graphql/types/query_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1620852107
+  }
+}
