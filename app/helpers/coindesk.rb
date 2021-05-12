@@ -11,4 +11,10 @@ class Coindesk
     price = btc_price + margin
     price * exchange_rate
   end
+
+  def self.calculate_sell_price(btc_price:, margin:, exchange_rate:)
+    margin = (btc_price * margin) / 100
+    price = btc_price - margin
+    price * exchange_rate
+  end
 end
