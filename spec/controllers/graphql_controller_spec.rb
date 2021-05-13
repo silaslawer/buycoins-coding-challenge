@@ -2,13 +2,6 @@ require "rails_helper"
 
 RSpec.describe GraphqlController, type: :controller do
 
-  describe "GET #heartbeat" do
-    it "returns successfully pings the api endpoint" do
-      get :heartbeat
-      expect(response).to have_http_status(200)
-    end
-  end
-
   describe "POST #execute" do
 
     it "ensure hash params" do
