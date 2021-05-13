@@ -2,7 +2,7 @@
 
 API that powered by GraphQL and Ruby on Rails.
 
-[Heroku Live API Verison](https://buycoins-silas.herokuapp.com/)
+[Heroku Live API Verison](https://buycoins-silas.herokuapp.com/graphiql)
 
 ## What you need
 
