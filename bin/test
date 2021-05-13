@@ -1,0 +1,5 @@
+#!/bin/bash
+bundle install &&
+bundle exec rubocop &&
+bundle exec rspec &&
+bundle exec brakeman
