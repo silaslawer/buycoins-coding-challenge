@@ -10,6 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'graphql'
+gem 'graphiql-rails'
 gem 'factory_bot_rails'
 gem 'faker'
 gem 'database_cleaner'
@@ -34,7 +35,6 @@ group :development do
   gem 'foreman'
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
   gem 'solargraph'
-  gem 'graphiql-rails'
 end
 
 group :test do
